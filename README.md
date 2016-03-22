@@ -7,7 +7,7 @@ Checkout the [demo](http://octwall.hanhaishan.com)
 Octwall help genrate picture like below from a bunch of svg icons or svg sprites.
 
 <p align="center">
-  <img src="//raw.githubusercontent.com/haishanh/octwall/master/example.png" alt="octwall example">
+  <img src="https://raw.githubusercontent.com/haishanh/octwall/master/example.png" alt="octwall example">
 </p>
 
 From the online demo, you will only see github [octicons][octicons] icons. Google material design icons are also avaliable in the repo, but you need to run octwall yourself in your local environment, see below.
