@@ -1,0 +1,32 @@
+// COLORS
+
+// color value come from http://flatuicolors.com/
+$belize-hole: #2980b9;
+$green-sea: #16a085;
+$nephritis: #27ae60;
+$wisteria: #8e44ad;
+$midnight-blue: #2c3e50;
+$orange: #f39c12;
+$pumpkin: #d35400;
+$pomegranate: #c0392b;
+$asbestos: #7f8c8d;
+
+// main color
+$main-color: %color%;
+
+body {
+  margin: 0;
+  background: $main-color;
+}
+
+.wrapper {
+  margin-left: 20px;
+}
+
+.icon {
+  fill: lighten($main-color, 25%) !important;
+  margin: 15px 15px;
+  width: 80px;
+  height: 80px;
+  transform: rotate(-25deg);
+}

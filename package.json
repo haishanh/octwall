@@ -1,0 +1,22 @@
+{
+  "name": "octwall",
+  "version": "1.0.0",
+  "description": "Octicons theme wallpaper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.2.0",
+    "gulp-svg-symbols": "^1.0.0",
+    "lodash": "^4.6.1"
+  }
+}

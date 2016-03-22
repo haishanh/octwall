@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+.before,
+.after,
+.footer {
+  text-align: center;
+  width: 938px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #03a9f4;
+}
+
+a:hover {
+  color: tomato;
+}
+
+.footer {
+  color: #ccc;
+  font-style: italic;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer a:hover {
+  color: tomato;
+}
+
+.options {
+  width: 918px;
+  margin: 20px auto;
+}
+
+.button {
+  background-image: url(http://7fva40.com1.z0.glb.clouddn.com/octwall-all.png);
+  width: 296px;
+  height: 60px;
+  margin: 5px 5px;
+  display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+}
+
+.icon.repo:hover {
+  fill: tomato;
+}
+
+#belize-hole {
+  background-position: 0px 540px;
+}
+
+#green-sea {
+  background-position: 0px 480px;
+}
+
+#nephritis {
+  background-position: 0px 420px;
+}
+
+#wisteria {
+  background-position: 0px 360px;
+}
+
+#midnight-blue {
+  background-position: 0px 300px;
+}
+
+#orange {
+  background-position: 0px 240px;
+}
+
+#pumpkin {
+  background-position: 0px 180px;
+}
+
+#pomegranate {
+  background-position: 0px 120px;
+}
+
+#asbestos {
+  background-position: 0px 60px;
+}
