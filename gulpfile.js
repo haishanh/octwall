@@ -103,7 +103,7 @@ gulp.task('injectSvgName', ['sprite'], () => {
   svgs += 'var exclude=' + config.exclude + ';';
   svgs += 'var include=' + config.include + ';';
 
-  fs.writeFile(injectTarget, svgs, () => {});
+  fs.writeFileSync(injectTarget, svgs);
 
   // parse svg ids in svg sprite file <filename> into array <svgArr>
   function parseOneSprite(filename, svgArr) {
