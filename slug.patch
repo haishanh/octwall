@@ -1,0 +1,19 @@
+--- a/node_modules/gulp-svg-symbols/lib/svg.js	2015-09-30 21:33:29.000000000 +0800
++++ b/node_modules/gulp-svg-symbols/lib/svg.js	2016-03-23 09:54:27.717593568 +0800
+@@ -1,7 +1,6 @@
+ 'use strict';
+ 
+ var _       = require('lodash');
+-var slug    = require('slug');
+ var path    = require('path');
+ var cheerio = require('cheerio');
+ 
+@@ -26,7 +25,7 @@
+     viewBox:            viewBox.join(' '),
+     originalAttributes: attr,
+     // Slug id because I don't like spaces in IDs or Classes XD
+-    id:                 slug(name),
++    id:                 name.replace(/\s/, '-'),
+     // SVG files might not have size
+     // https://github.com/Hiswe/gulp-svg-symbols/issues/10
+     width:    utils.sizeOrViewboxFallback(attr.width, viewBox[2]),

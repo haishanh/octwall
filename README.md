@@ -58,6 +58,20 @@ gulp serve
 
 Go checkout http://localhost:3000
 
+**Note**: Seems on some Linux distro [there is a issue][slug-issue] with `slug` module used in `gulp-svg-symbol`, like below:
+
+```text
+Error: Cannot find module 'unicode/category/So'
+```
+
+To resolve it you can try my patch `slug.patch`. To apply the patch:
+
+```
+patch -p1 < slug.patch
+```
+
+[slug-issue]: https://github.com/dodo/node-slug/issues/58
+
 ## License
 
 `octicons` used in this project come from GitHub's original [octicons repo][oct-repo]. License [here][oct-license].
