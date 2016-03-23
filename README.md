@@ -42,6 +42,22 @@ npm install
 
 Basicly, the file will being imported as a object. Explanation for each key is also avaliable in the file itself.
 
+4/ Build
+
+Octwall using gulp as task runner. To build:
+
+```
+gulp
+```
+
+5/ Serve and browse
+
+```
+gulp serve
+```
+
+Go checkout http://localhost:3000
+
 ## License
 
 `octicons` used in this project come from GitHub's original [octicons repo][oct-repo]. License [here][oct-license].
